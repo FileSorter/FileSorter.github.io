@@ -1,0 +1,12 @@
+body {
+  background-color: #2e2e2e;
+  color: #fefefe;
+  font-family: helvetica;
+  text-align: center;
+}
+h1 {
+  font-size: 30px;
+}
+p {
+  font-size: 14px;
+}
