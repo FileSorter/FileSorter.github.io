@@ -116,10 +116,23 @@ main {
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
 }
 
-/* Patreon */
 .patreon {
-  margin: 2rem auto;
+  margin: 3rem 0;
 }
+
+.patreon-wrapper {
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 1rem 2rem;
+  display: inline-block;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.25);
+  transition: transform 0.2s ease;
+}
+
+.patreon-wrapper:hover {
+  transform: scale(1.03);
+}
+
 
 /* Footer */
 footer {
